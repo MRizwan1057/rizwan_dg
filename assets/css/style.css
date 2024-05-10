@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* FONT IMPORT */
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
@@ -17,6 +24,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -40,7 +48,11 @@ marquee {
   font-weight: 600;
 }
 .mrqrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 5rem;
 }
@@ -48,6 +60,7 @@ marquee {
 .logo {
   width: 120px;
   height: 80px;
+  -o-object-fit: contain;
   object-fit: contain;
 }
 
@@ -70,6 +83,7 @@ marquee {
   background: transparent;
   border: none;
   outline: 0;
+  -webkit-box-shadow: none;
   box-shadow: none;
 }
 
@@ -77,12 +91,17 @@ marquee {
   background: transparent !important;
   border: none !important;
   outline: 0 !important;
+  -webkit-box-shadow: none !important;
   box-shadow: none !important;
 }
 
 .header_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 1.5rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -100,24 +119,36 @@ marquee {
 .hero {
   min-height: 700px;
   height: 100%;
+  -o-object-fit: cover;
   object-fit: cover;
   background-image: url("../images/heroimg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: end;
 }
 
 .heroImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 1rem;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .heroImg img {
   width: 27%;
   height: auto;
+  -o-object-fit: contain;
   object-fit: contain;
 }
 
@@ -145,6 +176,7 @@ marquee {
 .pimg {
   width: 160px;
   height: auto;
+  -o-object-fit: cover;
   object-fit: cover;
   padding: 0.6rem;
 }
@@ -159,9 +191,15 @@ marquee {
   font-size: 0.8rem;
   color: var(--var-primary-color);
   text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 1rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
 }
 .sec_tile {
@@ -173,11 +211,16 @@ marquee {
 .imgwrp {
   width: 260px;
   height: auto;
+  -o-object-fit: cover;
   object-fit: cover;
   padding: 0.2rem;
 }
 .clrwrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   gap: 0.3rem;
   padding: 0.3rem;
@@ -247,7 +290,11 @@ marquee {
 }
 
 .shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
   align-items: baseline;
   gap: 0.5rem;
   padding: 0.6rem 1rem;
@@ -269,18 +316,23 @@ marquee {
 
 .bimg {
   width: 180px;
+  -o-object-fit: cover;
   object-fit: cover;
   aspect-ratio: 4 / 3;
   padding: 0.6rem;
 }
 .fwimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   gap: 1rem;
 }
 .fwimg img {
   width: 222px;
   height: 333px;
+  -o-object-fit: cover;
   object-fit: cover;
   border-radius: 1.5rem;
 }
@@ -316,7 +368,11 @@ marquee {
   font-weight: 500;
 }
 .fb_txt.last {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
   justify-content: end;
 }
 .last strong {
@@ -327,23 +383,3 @@ marquee {
   font-weight: 500;
   padding: 1rem 0.6rem;
 }
-
-/* .h_slider .slick-prev:before,
-.slick-next:before {
-  color: var(--var-primary-color);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  position: absolute;
-  top: -120px;
-  left: -30px;
-}
-
-.h_slider .slick-prev::after,
-.slick-next::after {
-  color: var(--var-primary-color);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  position: absolute;
-  top: -120px;
-  right: -30px;
-} */
