@@ -180,4 +180,7 @@
   .header_right i {
     font-size: 1rem;
   }
+  .imgwrp {
+    width: 170px;
+  }
 }
