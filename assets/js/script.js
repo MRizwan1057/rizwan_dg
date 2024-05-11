@@ -71,6 +71,7 @@ $(document).ready(function () {
           centerMode: true,
           centerPadding: "60px",
           slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],

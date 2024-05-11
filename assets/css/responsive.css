@@ -1,50 +1,59 @@
-*/
-
-/* Large devices (desktops, less than 1200px) */
-/* @media (max-width: 1199.98px) {
-} */
-
 /* Medium devices (tablets, less than 992px) */
 @media only screen and (max-width: 1199px) and (min-width: 768px) {
+  .h_form {
+    background: #f3f4f6;
+    padding: 0 0.4rem;
+    width: 400px;
+  }
   .fwimg {
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
   }
+
   .fwimg img {
-    width: 180px;
-    height: 250px;
+    width: 170px;
+    height: 230px;
   }
+
   .bgimg {
     width: 200px;
     height: 300px;
   }
-  .h_form,
+
+  /* .h_form,
   .header_right {
     margin: 1rem 0;
-  }
+  } */
+
   .imgwrp {
     width: 220px;
   }
+
   .f_links i {
     font-size: 1rem;
     background: #dbdbdb;
     padding: 0.2rem;
   }
+
   .f_title,
   .fb_txt {
     font-size: 0.9rem;
     padding: 0.2rem;
   }
+
   .f_links li {
     font-size: 0.7rem;
   }
+
   .h_slider h6 {
     font-size: 0.7rem;
     padding: 1rem 0rem;
   }
+
   .hero {
     min-height: 550px;
   }
+
   .hero_title {
     font-size: 2.2rem;
     font-weight: bold;
@@ -58,22 +67,27 @@
   .hero {
     min-height: 400px;
   }
+
   .hero_title {
     font-size: 2.3rem;
     text-align: center;
   }
+
   .h_slider h6 {
     font-size: 0.7rem;
     font-weight: bold;
     padding: 1rem 0.4rem;
   }
+
   .logo {
     height: 50px;
   }
+
   .h_form,
   .header_right {
     margin: 1rem 0;
   }
+
   .imgwrp {
     width: 240px;
   }
@@ -85,22 +99,28 @@
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .fwimg img {
     width: 220px;
     height: 260px;
   }
+
   .footer {
     text-align: center;
   }
+
   .f_links i {
     font-size: 1rem;
   }
+
   .fb_txt {
     font-size: 0.6rem;
   }
+
   .sec_tile {
     font-size: 1.1rem;
   }
+
   .bgimg {
     margin: auto;
     margin-bottom: 1.5rem;
@@ -112,18 +132,22 @@
   .hero {
     min-height: 311px;
   }
+
   .hero_title {
     font-size: 1.3rem;
     text-align: center;
   }
+
   .h_slider h6 {
     font-size: 0.7rem;
     font-weight: bold;
     padding: 1rem 0.4rem;
   }
+
   .logo {
     height: 50px;
   }
+
   .fwimg {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -131,10 +155,12 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
+
   .sec_tile {
     font-size: 1.5rem;
     text-align: center;
   }
+
   .bgimg {
     width: 300px;
     height: 280px;
@@ -142,23 +168,28 @@
     margin: auto;
     margin-bottom: 1rem;
   }
+
   .fwimg img {
     width: 260px;
     height: 220px;
     margin: auto;
     margin-bottom: 1rem;
   }
+
   .footer {
     text-align: center;
   }
+
   .f_links i {
     font-size: 1rem;
   }
+
   .fb_txt {
     font-size: 0.5rem;
     font-weight: 500;
     text-align: center;
   }
+
   .fend {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -170,17 +201,21 @@
     -ms-flex-pack: center;
     justify-content: center;
   }
+
   .h_form {
     width: 260px;
   }
+
   .dnld {
     padding: 0.2rem 0.4rem;
     font-size: 0.6rem;
   }
+
   .header_right i {
     font-size: 1rem;
   }
-  .imgwrp {
-    width: 170px;
-  }
+
+  /* .imgwrp img {
+    width: 200px;
+  } */
 }
