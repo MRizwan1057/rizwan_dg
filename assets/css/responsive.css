@@ -56,8 +56,6 @@
 
   .hero_title {
     font-size: 2.2rem;
-    font-weight: bold;
-    color: white;
     padding: 0 3rem;
   }
 }
@@ -213,6 +211,12 @@
 
   .header_right i {
     font-size: 1rem;
+  }
+
+  .s_contwrp .sp,
+  .s_contwrp h6,
+  .s_contwrp h5 {
+    font-size: 0.8rem;
   }
 
   /* .imgwrp img {
