@@ -1,6 +1,5 @@
 $(document).ready(function () {
   // business logic
-  console.log("chala777");
   $(".h_slider").slick({
     slidesToShow: 7,
     slidesToScroll: 1,

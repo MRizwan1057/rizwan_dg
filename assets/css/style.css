@@ -1,12 +1,4 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 /* FONT IMPORT */
-
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* ROOT VARIABLES */
@@ -16,8 +8,6 @@
   --var-white-color: #fff;
   --var-black-color: #000;
   --var-primary-color: #ac9365;
-  --var-accent-color: #ffff00;
-  --var-theme-color: #0004ff;
 }
 
 /* GENERAL STYLES */
@@ -44,6 +34,13 @@ body {
 .section {
   padding: 3rem 0;
 }
+
+.sec_tile {
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding: 0.3rem 0.6rem;
+}
+
 marquee {
   background: black;
   padding: 0.4rem;
@@ -119,6 +116,16 @@ marquee {
 }
 .header_right i {
   font-size: 1rem;
+}
+.header_right i:hover,
+.f_links li:hover,
+.f_links i:hover {
+  cursor: pointer;
+  transition: all 3s ease;
+}
+
+.f_links i:hover {
+  background: unset;
 }
 .hero {
   min-height: 500px;
@@ -205,11 +212,6 @@ marquee {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-.sec_tile {
-  font-size: 1.7rem;
-  font-weight: 600;
-  padding: 0.3rem 0.6rem;
 }
 
 .imgwrp {
